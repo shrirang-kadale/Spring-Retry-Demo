@@ -34,3 +34,4 @@
 -We will design the retry based on this custom exception, like once we receive this exception, we will retry for 3 times and finally return to the client.
 -In those 3 attempts, if we get success response from backend service then that success response will be returned else the standard fallback method will be called.
 # spring-retry
+# Spring-Retry-Demo
