@@ -16,7 +16,7 @@ public class BackendAdapterImpl implements BackendAdapter {
 			// This block will execute until max attempts of spring retry and afterwards fallback method gets called
 			if (simulateretryfallback) {
 				throw new RemoteServiceNotAvailableException(
-						"Don't worry!! Just Simulated for Spring-retry..Must fallback as all retry will get exception!!!");
+						"Don't worry!! Just Simulated for Spring-retry... Must fallback as all retry will get exception!!!");
 			}
 			
 			// Here I can not call the remote service so I am creating the random number between (0, 1, 2, 3)
