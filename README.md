@@ -3,7 +3,7 @@
 Spring-Retry demo application with spring boot
 
 Introduction
--To avoid the above scenarios we can retry the same identical request using spring retry
+-To avoid the failure scenarios we can retry the same identical request using spring retry
 -Usually we implement the retry functionality on any service call using loop and break condition but this solution is error prone
 -To overcome this issue spring has provided one simple framework Spring-Retry which can be configured using annotations
 -We can define the retry limits, fallback methods and many more using annotations.
